@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GroceryListApp</string>
+    <string name="title_shoppingList">Shopping List</string>
+    <string name="title_database">Database</string>
+    <string name="title_addItem">Add Item</string>
+    <string name="text_addItem_Top">Enter Grocery Item Name and Press \'Add\'</string>
+    <string name="button_addItem_Add">Add</string>
+    <string name="input_field_defaultName">Enter Name</string>
+    <string name="input_field_defaultCategory">Enter Category</string>
+    <string name="input_toast_noinput_name">Please enter an item name</string>
+    <string name="input_toast_noinput_category">Please enter an item category</string>
+    <string name="input_toast_added1">Added \"</string>
+    <string name="input_toast_added2">\" to the Database</string>
+    <string name="input_tickbox_text">At Home</string>
+    <string name="atHome_true">At Home</string>
+    <string name="atHome_false">Not At Home</string>
+    <string name="clear_selected">Clear Selected</string>
+    <string name="mark_athome">Mark \'At Home\'</string>
+    <string name="unmark_athome">Mark Not \'At Home\'</string>
+    <string name="delete_selected">Delete Selected</string>
+    <string name="addto_shoppinglist">Add To Shopping List</string>
+</resources>

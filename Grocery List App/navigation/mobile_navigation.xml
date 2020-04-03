@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_shoppingList">
+
+    <fragment
+        android:id="@+id/navigation_shoppingList"
+        android:name="com.example.grocerylistapp.ui.ShoppingList.ShoppingListFragment"
+        android:label="@string/title_shoppingList"
+        tools:layout="@layout/fragment_shopping" />
+
+    <fragment
+        android:id="@+id/navigation_database"
+        android:name="com.example.grocerylistapp.ui.Database.DatabaseFragment"
+        android:label="@string/title_database"
+        tools:layout="@layout/fragment_database" />
+
+    <fragment
+        android:id="@+id/navigation_additem"
+        android:name="com.example.grocerylistapp.ui.AddItem.AddItemFragment"
+        android:label="@string/title_addItem"
+        tools:layout="@layout/fragment_additem" />
+</navigation>
